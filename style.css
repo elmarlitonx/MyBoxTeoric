@@ -81,9 +81,9 @@ body {
     font-size: 16px;
     transition: transform 0.9s ease;
     font-weight: bold;
-    margin-left: 50%;
+    margin-left: 0%;
+    margin-top: -20%;
     animation: pulse 2.3s infinite;
-    margin-bottom: 5%;
 }
 
 .btnclases:hover {
@@ -99,6 +99,7 @@ body {
     justify-content: center;
     gap: 200px;
     margin: 20px;
+  
 }
 
 .card-body {
