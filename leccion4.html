@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>MyboxTeoric - Tipos de Guardia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <a href="index.html" class="line">
+               <div>
+                     <img class="logo" src="img logo.png" alt="logo">
+               </div>
+               <div class="webname">
+                     <h2>MyboxTeoric</h2>
+               </div>
+            </a>
+            <ul>
+                <li><a href="inicio.html">Inicio</a></li>
+                <li><a href="lecciones.html">Lecciones</a></li>
+                <li><a href="Historias y datos.html">Historias y datos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Título e introducción -->
+    <section class="bienvenida">
+        <h1><span class="detalles">Clase</span> 4: Tipos de <span class="detalles">Guardia</span></h1>
+        <p>La guardia es la base del boxeo: define tu defensa, tu ataque y tu estilo. Conocer diferentes guardias 
+        te permite adaptarte al rival, aprovechar tus fortalezas y mejorar tu estrategia en el ring.</p>
+    </section>
+    <br><br><br><br>
+
+    <!-- Tarjeta resumen -->
+    <div class="classname">
+        <div class="custom-card card-leccion1">
+            <img src="img tiposdeguardia.png" alt="Boxeador en distintas posiciones de guardia">
+            <div class="card-body">
+                <h3>Introducción</h3>
+                <p class="card-text">
+                    Existen varios tipos de guardia en el boxeo, cada una con ventajas y desventajas. 
+                    Las principales son: Ortodoxa, Zurda (Southpaw), Philly Shell y Peek-a-boo. 
+                    Dominar estas posturas permite ser un boxeador más versátil, capaz de atacar, defenderse 
+                    y adaptarse a diferentes estilos de oponentes.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Guardia Ortodoxa -->
+    <section class="objective-container">
+        <div class="objective-text">
+            <h2><span class="detalles">Guardia</span> Ortodoxa</h2>
+            <ul>
+                <li><strong>Posición:</strong> pie izquierdo adelante, pie derecho atrás, mano izquierda lidera (jab), mano derecha protege mandíbula.</li>
+                <li><strong>Ventajas:</strong> base sólida, equilibrio, golpes fuertes con la derecha.</li>
+                <li><strong>Desventajas:</strong> predecible, puede sufrir contra zurdos.</li>
+                <li><strong>Ejemplos:</strong> Muhammad Ali, Floyd Mayweather.</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Guardia Zurda -->
+    <section class="objective-container reverse">
+        <div class="objective-text">
+            <h2><span class="detalles">Guardia</span> Zurda (Southpaw)</h2>
+            <ul>
+                <li><strong>Posición:</strong> pie derecho adelante, mano derecha jab, mano izquierda recto de poder.</li>
+                <li><strong>Ventajas:</strong> ángulo incómodo para ortodoxos, recto de izquierda muy peligroso.</li>
+                <li><strong>Desventajas:</strong> menos sparrings, vulnerable si el rival sabe enfrentar zurdos.</li>
+                <li><strong>Ejemplos:</strong> Marvin Hagler, Vasyl Lomachenko.</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Philly Shell -->
+    <section class="objective-container">
+        <div class="objective-text">
+            <h2><span class="detalles">Philly</span> Shell</h2>
+            <ul>
+                <li><strong>Posición:</strong> hombro adelantado cubriendo mandíbula, mano trasera arriba, mano delantera baja.</li>
+                <li><strong>Ventajas:</strong> gran defensa contra rectos, ideal para contragolpes.</li>
+                <li><strong>Desventajas:</strong> difícil de aprender, débil contra ráfagas largas.</li>
+                <li><strong>Ejemplos:</strong> Floyd Mayweather Jr., James Toney.</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Peek-a-boo -->
+    <section class="objective-container reverse">
+        <div class="objective-text">
+            <h2><span class="detalles">Peek-a-boo</span></h2>
+            <ul>
+                <li><strong>Posición:</strong> guantes muy altos protegiendo rostro, codos cerrados, constante movimiento de cabeza.</li>
+                <li><strong>Ventajas:</strong> gran defensa del rostro y cuerpo, explosividad en ráfagas cortas.</li>
+                <li><strong>Desventajas:</strong> exige mucha energía, jab más corto.</li>
+                <li><strong>Ejemplos:</strong> Mike Tyson, Floyd Patterson.</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Conclusión -->
+    <section class="objective-container">
+        <div class="objective-text">
+            <h2><span class="detalles">Conclusión</span></h2>
+            <p>Dominar distintas guardias te da adaptabilidad. La ortodoxa es la base, la zurda confunde a la mayoría, 
+            el Philly Shell es defensa técnica de élite, y el Peek-a-boo ofrece agresividad explosiva. 
+            Un buen boxeador no se queda en una sola: cambia según el rival y la situación del combate.</p>
+        </div>
+    </section>
+
+    <!--botones next and back-->
+    <div class="btncontainer">
+        <div>
+            <a href="leccion3.html" class="back">
+                <button type="button" class="aprender">Anterior</button>
+            </a>
+        </div>
+        <div>
+            <a href="leccion5.html" class="next" onclick="terminarClase('4')">
+                <button type="button" class="aprender">Siguiente</button>
+            </a>
+        </div>
+    </div>
+
+    <script src="script1.js"></script>
+
+</body>
+</html>

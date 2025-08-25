@@ -1,0 +1,472 @@
+/* Archivo styles.css */
+
+/* Animación de aparición */
+.aparecer {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.aparecer.activo {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.aprender {
+    color: #111;
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    background-color: #C7A740;
+    border-radius: 30px 30px 30px 30px;
+    width: 120px;
+    height: 50px;
+    font-size: 16px;
+    transition: transform 0.9s ease;
+    font-weight: bold;
+    margin-top: 8%;
+    margin-left: 50%;
+    animation: pulse 2.3s infinite;
+}
+
+.aprender:hover {
+    background-color: #d6a62cea;
+    color: #fff;
+    transform: scale(1.2);
+    box-shadow: 4px 4px 4px 4px #d3d3d3;
+    cursor: pointer;
+}
+
+.back,
+.next {
+    text-decoration: none;
+}
+
+.bienvenida {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #ffff;
+    color: #111;
+    font-size: 3.0rem;
+}
+
+.bienvenida h1 {
+    font-size: 2.8rem;
+    margin: 0;
+}
+
+.bienvenida p {
+    font-size: 1.5rem;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.btnclases {
+    color: #111;
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    background-color: #C7A740;
+    border-radius: 30px 30px 30px 30px;
+    width: 120px;
+    height: 50px;
+    font-size: 16px;
+    transition: transform 0.9s ease;
+    font-weight: bold;
+    margin-left: 50%;
+    animation: pulse 2.3s infinite;
+    margin-bottom: 5%;
+}
+
+.btnclases:hover {
+    background-color: #d6a62cea;
+    color: #fff;
+    transform: scale(1.2);
+    box-shadow: 4px 4px 4px 4px #d3d3d3;
+    cursor: pointer;
+}
+
+.btncontainer {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    margin: 20px;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-text {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.4;
+}
+
+.classname {
+    display: flex;
+    justify-content: center;
+}
+
+.container-lecciones {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.custom-card {
+    width: 300px;
+    background-color: #fff;
+    border-radius: 16px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    font-size: 22px;
+    color: #111;
+    margin-bottom: 10px;
+}
+
+.custom-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 29px rgba(0, 0, 0, 0.2);
+}
+
+.custom-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.detalles {
+    background-color: yellow;
+    border-radius: 30px 30px 30px 30px;
+}
+
+.felicitaciones {
+    text-align: center;
+    padding: 80px 20px;
+    background-color: #f9f9f9;
+    color: #111;
+}
+
+.felicitaciones h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.felicitaciones p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Botón reutiliza .boton-estilo existente */
+.felicitaciones .boton-estilo {
+    margin-top: 30px;
+    padding: 12px 24px;
+}
+
+footer {
+    text-align: center;
+    background-color: #222;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header {
+    background-color: #222;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.leccion {
+    background-color: #F4F4F4;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-decoration: none;
+}
+
+.leccion:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+}
+
+.leccion h3 {
+    font-size: 20px;
+    color: #111;
+    margin-bottom: 10px;
+}
+
+.leccion p {
+    font-size: 16px;
+    color: #555;
+}
+
+.line {
+    display: flex;
+    text-decoration: none;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+
+.maintext {
+    text-align: justify;
+    font-size: 1.4rem;
+    margin: 2% 20%;
+    line-height: 1.6;
+}
+.maintext1 {
+    text-align: justify;
+    font-size: 2.4rem;
+    margin: 2% 20%;
+    line-height: 1.6;
+}
+
+.more {
+    border-radius: 30px 30px 30px 30px;
+    color: #ffff;
+    background-color: #555;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px;
+}
+
+nav ul {
+    margin-left: 10%;
+    display: flex;
+    list-style-type: none;
+    text-align: center;
+    gap: 150px;
+    font-size: 1.3rem;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #C7A740;
+}
+
+.objective-container {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    padding: 40px 20px;
+    margin-left: 6%;
+}
+
+.objective-container.reverse {
+    flex-direction: row-reverse;
+    margin-right: 6%;
+}
+
+/* Estado inicial oculto para animaciones */
+section,
+header,
+.bienvenida,
+.custom-card,
+.leccion,
+.objective-container,
+.classname {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+section.activo,
+header.activo,
+.bienvenida.activo,
+.custom-card.activo,
+.leccion.activo,
+.objective-container.activo,
+.classname.activo {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.objective-text {
+    color: #222;
+    max-width: 50%;
+    font-size: 1.3rem;
+}
+
+.objective-text h2 {
+    font-size: 2.1rem;
+    margin-bottom: 10px;
+    color: #222;
+}
+
+.objective-text p {
+    font-size: 1.3rem;
+    color: #222;
+    line-height: 1.5;
+}
+
+.secondtitle {
+    text-align: center;
+}
+
+.subtitle {
+    margin-left: 6%;
+}
+
+.title1 {
+    text-align: center;
+    font-size: 1.8rem;
+    margin-top: 8%;
+    margin-left: 12%;
+}
+
+.webname h2 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.webname:hover h2 {
+    color: #C7A740;
+}
+/* ===========================
+   Estilos para Historias y Datos
+   =========================== */
+
+.historias-datos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    padding: 3rem 5%;
+    background: #f9f9f9;
+}
+
+.hd-card {
+    background: #fff;
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hd-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+}
+
+.hd-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.hd-body {
+    padding: 1.5rem;
+}
+
+.hd-title {
+    font-size: 1.3rem;
+    color: #333;
+    margin-bottom: 0.8rem;
+    font-weight: bold;
+}
+
+.hd-body p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #555;
+}
+.leccion.completada {
+  border: 2px solid #28a745;
+  background-color: #e6f9ec;
+  color: #155724;
+}
+.lecciones{
+    margin-bottom: 20%;
+}
+
+
+
+/* Responsive más compacto en móviles */
+@media (max-width: 600px) {
+    .hd-body {
+        padding: 1rem;
+    }
+
+    .hd-title {
+        font-size: 1.1rem;
+    }
+
+    .hd-body p {
+        font-size: 0.9rem;
+    }
+}
+
+
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+}
+
+/* Responsive ajustes nav */
+@media (max-width: 768px) {
+    nav ul {
+        gap: 40px;
+        font-size: 1rem;
+        margin-left: 5%;
+    }
+    .logo {
+        width: 40px;
+        height: 40px;
+    }
+    .webname h2 {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+        margin: 0;
+    }
+    nav ul li a {
+        font-size: 0.9rem;
+    }
+}
